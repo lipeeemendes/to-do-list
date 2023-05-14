@@ -6,25 +6,33 @@
 
 body {
   height: 100vh;
-  background: linear-gradient(45deg, purple, rgb(216, 86, 166));
+  background: linear-gradient(45deg, rgb(0, 32, 128), rgb(121, 86, 216));
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+h1 {
+  font-size: 25px;
+  padding-bottom: 5px;
 }
 
 .container {
   background: white;
   height: 300px;
   width: 500px;
-  border-radius: 0.8rem;
+  border-radius: 0.5rem;
   box-shadow: 5px 10px rgba(0, 0, 0, 0.1);
   padding: 30px;
-}
-
-h1 {
 }
 
 #input-text {
   background: rgb(232, 232, 232);
   padding: 10px;
+  border-radius: 1rem;
+}
+
+#add {
+  background: orange;
+  border-radius: 1rem;
 }
